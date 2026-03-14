@@ -1,0 +1,20 @@
+:root {
+  --slidev-theme-primary: #1954a6; /* KTH Blå */
+  --slidev-theme-accent: #1954a6;
+}
+
+h1 {
+  color: var(--slidev-theme-primary);
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Lägger loggan i hörnet på alla slides utom titelsidan */
+.slidev-layout:not(.text-center) {
+  background-image: url('/KTH_logo_RGB_bla.svg');
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  background-size: 50px;
+}
+
